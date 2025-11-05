@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davec\\source\\repos\\AMS-test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\assetmanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\assetmanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\assetmanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\assetmanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E531C0C-C343-4642-B5CF-C3A74E4263F5}|AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.dataaccess\\assetmanagement.dataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3E531C0C-C343-4642-B5CF-C3A74E4263F5}|AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj|solutionrelative:assetmanagement.dataaccess\\assetmanagement.dataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA267D-81B2-4923-A877-FE973DCA32FE}|AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.businesslogic\\assetmanagement.businesslogic.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0CCA267D-81B2-4923-A877-FE973DCA32FE}|AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj|solutionrelative:assetmanagement.businesslogic\\assetmanagement.businesslogic.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 474,
+          "SelectedChildIndex": 33,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetManagement.Web",
+              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
+              "RelativeDocumentMoniker": "AssetManagement.Web\\AssetManagement.Web.csproj",
+              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
+              "RelativeToolTip": "AssetManagement.Web\\AssetManagement.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:42:22.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetManagement.Web",
+              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
+              "RelativeDocumentMoniker": "AssetManagement.Web\\AssetManagement.Web.csproj",
+              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
+              "RelativeToolTip": "AssetManagement.Web\\AssetManagement.Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:40:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssetManagement.DataAccess",
+              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
+              "RelativeDocumentMoniker": "AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
+              "RelativeToolTip": "AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:39:53.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetManagement.BusinessLogic",
+              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
+              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
+              "RelativeToolTip": "AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:39:43.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\Program.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\Program.cs",
+              "RelativeToolTip": "AssetManagement.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:39:22.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 74,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
