@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\davec\\source\\repos\\AMS-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\assetmanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\assetmanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\assetmanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\assetmanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E531C0C-C343-4642-B5CF-C3A74E4263F5}|AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.dataaccess\\assetmanagement.dataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3E531C0C-C343-4642-B5CF-C3A74E4263F5}|AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj|solutionrelative:assetmanagement.dataaccess\\assetmanagement.dataaccess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA267D-81B2-4923-A877-FE973DCA32FE}|AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.businesslogic\\assetmanagement.businesslogic.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0CCA267D-81B2-4923-A877-FE973DCA32FE}|AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj|solutionrelative:assetmanagement.businesslogic\\assetmanagement.businesslogic.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 474,
-          "SelectedChildIndex": 35,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,56 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssetManagement.Web",
-              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
-              "RelativeDocumentMoniker": "AssetManagement.Web\\AssetManagement.Web.csproj",
-              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
-              "RelativeToolTip": "AssetManagement.Web\\AssetManagement.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T19:42:22.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AssetManagement.Web",
-              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
-              "RelativeDocumentMoniker": "AssetManagement.Web\\AssetManagement.Web.csproj",
-              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
-              "RelativeToolTip": "AssetManagement.Web\\AssetManagement.Web.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T19:40:00.838Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AssetManagement.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\appsettings.json",
+              "RelativeToolTip": "AssetManagement.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T20:01:34.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssetManagement.DataAccess",
-              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
-              "RelativeDocumentMoniker": "AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
-              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
-              "RelativeToolTip": "AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T19:39:53.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AssetManagement.BusinessLogic",
-              "DocumentMoniker": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
-              "RelativeDocumentMoniker": "AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
-              "ToolTip": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
-              "RelativeToolTip": "AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T19:39:43.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\Program.cs",
               "RelativeDocumentMoniker": "AssetManagement.Web\\Program.cs",
