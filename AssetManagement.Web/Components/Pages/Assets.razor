@@ -1,0 +1,46 @@
+@page "/assets"
+@using AssetManagement.BusinessLogic.Services
+@using AssetManagement.DataAccess.Entities
+@inject IAssetService AssetService
+
+<h3>Assets</h3>
+
+@if (assets == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Purchase Date</th>
+                <th>Purchase Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var asset in assets)
+            {
+                <tr>
+                    <td>@asset.Id</td>
+                    <td>@asset.Name</td>
+                    <td>@asset.Description</td>
+                    <td>@asset.PurchaseDate.ToShortDateString()</td>
+                    <td>@asset.PurchasePrice</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Asset> assets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        assets = await AssetService.GetAssets();
+    }
+}
