@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\davec\\source\\repos\\AMS-test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|c:\\users\\davec\\source\\repos\\ams-test\\assetmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8B6A5B0-A92E-4540-A179-8D4CA6DBD343}|AssetManagement.Web\\AssetManagement.Web.csproj|solutionrelative:assetmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -155,6 +159,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AssetManagement.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\appsettings.json",
+              "RelativeToolTip": "AssetManagement.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T20:01:34.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\davec\\source\\repos\\AMS-test\\AssetManagement.Web\\Program.cs",
               "RelativeDocumentMoniker": "AssetManagement.Web\\Program.cs",
@@ -162,7 +179,8 @@
               "RelativeToolTip": "AssetManagement.Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:39:22.556Z"
+              "WhenOpened": "2025-11-05T19:39:22.556Z",
+              "EditorCaption": ""
             }
           ]
         },
