@@ -1,6 +1,7 @@
 @page "/assets"
 @using AssetManagement.BusinessLogic.Services
 @using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
 @inject IAssetService AssetService
 
 <h3>Assets</h3>
@@ -14,33 +15,35 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Name</th>
-                <th>Description</th>
-                <th>Purchase Date</th>
-                <th>Purchase Price</th>
+                <th>Asset Type</th>
+                <th>Value</th>
+                <th>Lifecycle Stage</th>
+                <th>Risk Rating</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var asset in assets)
             {
                 <tr>
-                    <td>@asset.Id</td>
                     <td>@asset.Name</td>
-                    <td>@asset.Description</td>
-                    <td>@asset.PurchaseDate.ToShortDateString()</td>
-                    <td>@asset.PurchasePrice</td>
+                    <td>@asset.AssetType</td>
+                    <td>@asset.Value</td>
+                    <td>@asset.LifecycleStage</td>
+                    <td>@asset.RiskRating</td>
                 </tr>
             }
         </tbody>
     </table>
 }
 
+<a href="/add-asset" class="btn btn-primary">Add New Asset</a>
+
 @code {
-    private List<Asset> assets;
+    private List<Asset>? assets;
 
     protected override async Task OnInitializedAsync()
     {
-        assets = await AssetService.GetAssets();
+        assets = await AssetService.GetAll();
     }
 }
