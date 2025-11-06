@@ -1,0 +1,46 @@
+@page "/organisationalobjectives"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IOrganisationalObjectiveService OrganisationalObjectiveService
+
+<h3>Organisational Objectives</h3>
+
+<a href="/organisationalobjectives/add" class="btn btn-primary mb-3">Add New</a>
+
+@if (organisationalObjectives == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var objective in organisationalObjectives)
+            {
+                <tr>
+                    <td>@objective.Title</td>
+                    <td>@objective.Description</td>
+                    <td>
+                        <a href="/organisationalobjectives/edit/@objective.Id" class="btn btn-secondary">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<OrganisationalObjective> organisationalObjectives = new List<OrganisationalObjective>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        organisationalObjectives = await OrganisationalObjectiveService.GetAll();
+    }
+}

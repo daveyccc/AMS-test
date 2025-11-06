@@ -1,0 +1,126 @@
+@page "/dashboard"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IAssetService AssetService
+@inject IOrganisationalObjectiveService OrganisationalObjectiveService
+@inject IDecisionRecordService DecisionRecordService
+@inject IAuditFindingService AuditFindingService
+@inject IDataAssetService DataAssetService
+@inject IRiskItemService RiskItemService
+
+<h3>Dashboard</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Assets by Lifecycle Stage</h4>
+        <ul class="list-group">
+            @foreach (var group in assets.GroupBy(a => a.LifecycleStage))
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @group.Key
+                    <span class="badge bg-primary rounded-pill">@group.Count()</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>Assets by Risk Rating</h4>
+        <ul class="list-group">
+            @foreach (var group in assets.GroupBy(a => a.RiskRating))
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @group.Key
+                    <span class="badge bg-primary rounded-pill">@group.Count()</span>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4>Data Asset Quality Summary</h4>
+        <ul class="list-group">
+            @foreach (var group in dataAssets.GroupBy(d => d.DataQuality))
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @group.Key
+                    <span class="badge bg-primary rounded-pill">@group.Count()</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>Risk Item Overview</h4>
+        <ul class="list-group">
+            @foreach (var risk in riskItems)
+            {
+                <li class="list-group-item">@risk.RiskType</li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h4>Line-of-Sight Hierarchy</h4>
+        @foreach (var orgObjective in organisationalObjectives)
+        {
+            <h5>@orgObjective.Title</h5>
+            <ul>
+                @foreach (var assetObjective in orgObjective.AssetObjectives)
+                {
+                    <li>
+                        @assetObjective.ObjectiveText
+                        <ul>
+                            @foreach (var activity in assetObjective.Activities)
+                            {
+                                <li>@activity.Name (@(activity.Asset?.Name ?? "N/A"))</li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4>Pending Decision Records</h4>
+        <ul class="list-group">
+            @foreach (var decision in pendingDecisionRecords)
+            {
+                <li class="list-group-item">@decision.DecisionText</li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4>Linked Audit Findings</h4>
+        <ul class="list-group">
+            @foreach (var finding in linkedAuditFindings)
+            {
+                <li class="list-group-item">@finding.ClauseReference</li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+    private List<Asset> assets = new List<Asset>();
+    private List<OrganisationalObjective> organisationalObjectives = new List<OrganisationalObjective>();
+    private List<DecisionRecord> pendingDecisionRecords = new List<DecisionRecord>();
+    private List<AuditFinding> linkedAuditFindings = new List<AuditFinding>();
+    private List<DataAsset> dataAssets = new List<DataAsset>();
+    private List<RiskItem> riskItems = new List<RiskItem>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        assets = await AssetService.GetAll();
+        organisationalObjectives = await OrganisationalObjectiveService.GetAll();
+        pendingDecisionRecords = (await DecisionRecordService.GetAll()).Where(d => d.Outcome == "Pending").ToList();
+        linkedAuditFindings = (await AuditFindingService.GetAll()).Where(f => f.DecisionRecordId != null).ToList();
+        dataAssets = await DataAssetService.GetAll();
+        riskItems = await RiskItemService.GetAll();
+    }
+}

@@ -21,5 +21,16 @@ namespace AssetManagement.DataAccess.Entities
 
         // Navigation property for related predictive actions
         public ICollection<PredictiveAction> PredictiveActions { get; set; } = new List<PredictiveAction>();
+
+        // Optional foreign key for AuditFinding
+        public int? AuditFindingId { get; set; }
+        public AuditFinding? AuditFinding { get; set; }
+
+        // Optional foreign key for Activity
+        public int? ActivityId { get; set; }
+        public Activity? Activity { get; set; }
+
+        // Navigation property for related AuditFindings
+        public ICollection<AuditFinding> AuditFindings { get; set; } = new List<AuditFinding>();
     }
 }

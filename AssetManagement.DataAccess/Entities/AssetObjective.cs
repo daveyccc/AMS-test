@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace AssetManagement.DataAccess.Entities
 {
@@ -11,5 +12,12 @@ namespace AssetManagement.DataAccess.Entities
         public string ObjectiveText { get; set; } = string.Empty;
         public DateTime TargetDate { get; set; }
         public string Status { get; set; } = string.Empty;
+
+        // Foreign key for OrganisationalObjective
+        public int OrganisationalObjectiveId { get; set; }
+        public OrganisationalObjective? OrganisationalObjective { get; set; }
+
+        // Navigation property for related Activities
+        public ICollection<Activity> Activities { get; set; } = new List<Activity>();
     }
 }

@@ -17,6 +17,12 @@ builder.Services.AddScoped<IAssetService, AssetService>();
 builder.Services.AddScoped<IAssetObjectiveService, AssetObjectiveService>();
 builder.Services.AddScoped<IDecisionRecordService, DecisionRecordService>();
 builder.Services.AddScoped<IPredictiveActionService, PredictiveActionService>();
+builder.Services.AddScoped<IOrganisationalObjectiveService, OrganisationalObjectiveService>();
+builder.Services.AddScoped<IActivityService, ActivityService>();
+builder.Services.AddScoped<IDataAssetService, DataAssetService>();
+builder.Services.AddScoped<IInformationSystemService, InformationSystemService>();
+builder.Services.AddScoped<IRiskItemService, RiskItemService>();
+builder.Services.AddScoped<IAuditFindingService, AuditFindingService>();
 
 var app = builder.Build();
 

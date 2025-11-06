@@ -17,5 +17,14 @@ namespace AssetManagement.DataAccess.Entities
 
         // Navigation property for related decision records
         public ICollection<DecisionRecord> DecisionRecords { get; set; } = new List<DecisionRecord>();
+
+        // Navigation property for related Activities
+        public ICollection<Activity> Activities { get; set; } = new List<Activity>();
+
+        // Navigation property for related RiskItems
+        public ICollection<RiskItem> RiskItems { get; set; } = new List<RiskItem>();
+
+        // Navigation property for related AuditFindings
+        public ICollection<AuditFinding> AuditFindings { get; set; } = new List<AuditFinding>();
     }
 }

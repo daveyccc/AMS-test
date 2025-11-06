@@ -1,1 +1,9 @@
-.dotnet
+# Visual Studio cache files
+.vs/
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+
+# Rider files
+.idea/
