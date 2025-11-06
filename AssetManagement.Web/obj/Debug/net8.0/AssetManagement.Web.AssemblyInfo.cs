@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssetManagement.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd0c266b619a73a220b400fab521f701e559899")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29465c3ea66f7cef79945f856d896c0139319ff9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssetManagement.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssetManagement.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,52 @@
+@page "/organisationalobjectives/edit/{Id:int}"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IOrganisationalObjectiveService OrganisationalObjectiveService
+@inject NavigationManager NavigationManager
+
+<h3>Edit Organisational Objective</h3>
+
+@if (objective == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@objective" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <InputText id="title" class="form-control" @bind-Value="objective.Title" />
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <InputText id="description" class="form-control" @bind-Value="objective.Description" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private OrganisationalObjective? objective;
+
+    protected override async Task OnInitializedAsync()
+    {
+        objective = await OrganisationalObjectiveService.GetById(Id);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (objective != null)
+        {
+            await OrganisationalObjectiveService.Update(objective);
+            NavigationManager.NavigateTo("/organisationalobjectives");
+        }
+    }
+}

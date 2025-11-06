@@ -1,0 +1,66 @@
+@page "/activities/add"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IActivityService ActivityService
+@inject IAssetService AssetService
+@inject IAssetObjectiveService AssetObjectiveService
+@inject NavigationManager NavigationManager
+
+<h3>Add Activity</h3>
+
+<EditForm Model="@activity" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="activity.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <InputText id="description" class="form-control" @bind-Value="activity.Description" />
+    </div>
+
+    <div class="mb-3">
+        <label for="asset" class="form-label">Asset</label>
+        <InputSelect id="asset" class="form-control" @bind-Value="activity.AssetId">
+            <option value="">Select Asset</option>
+            @foreach (var asset in assets)
+            {
+                <option value="@asset.Id">@asset.Name</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="mb-3">
+        <label for="assetObjective" class="form-label">Asset Objective</label>
+        <InputSelect id="assetObjective" class="form-control" @bind-Value="activity.AssetObjectiveId">
+            <option value="">Select Asset Objective</option>
+            @foreach (var objective in assetObjectives)
+            {
+                <option value="@objective.Id">@objective.ObjectiveText</option>
+            }
+        </InputSelect>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private Activity activity = new Activity();
+    private List<Asset> assets = new List<Asset>();
+    private List<AssetObjective> assetObjectives = new List<AssetObjective>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        assets = await AssetService.GetAll();
+        assetObjectives = await AssetObjectiveService.GetAll();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await ActivityService.Add(activity);
+        NavigationManager.NavigateTo("/activities");
+    }
+}

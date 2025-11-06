@@ -1,0 +1,46 @@
+@page "/activities"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IActivityService ActivityService
+
+<h3>Activities</h3>
+
+<a href="/activities/add" class="btn btn-primary mb-3">Add New</a>
+
+@if (activities == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var activity in activities)
+            {
+                <tr>
+                    <td>@activity.Name</td>
+                    <td>@activity.Description</td>
+                    <td>
+                        <a href="/activities/edit/@activity.Id" class="btn btn-secondary">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Activity> activities = new List<Activity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        activities = await ActivityService.GetAll();
+    }
+}

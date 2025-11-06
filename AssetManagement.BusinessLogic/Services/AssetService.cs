@@ -1,3 +1,4 @@
+using AssetManagement.BusinessLogic.Interfaces;
 using AssetManagement.DataAccess;
 using AssetManagement.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -15,33 +16,36 @@ namespace AssetManagement.BusinessLogic.Services
             _context = context;
         }
 
-        public async Task<List<Asset>> GetAssets()
+        public async Task<List<Asset>> GetAll()
         {
             return await _context.Assets.ToListAsync();
         }
 
-        public async Task<Asset> GetAsset(int id)
+        public async Task<Asset?> GetById(int id)
         {
             return await _context.Assets.FindAsync(id);
         }
 
-        public async Task AddAsset(Asset asset)
+        public async Task Add(Asset asset)
         {
             _context.Assets.Add(asset);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsset(Asset asset)
+        public async Task Update(Asset asset)
         {
             _context.Entry(asset).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsset(int id)
+        public async Task Delete(int id)
         {
             var asset = await _context.Assets.FindAsync(id);
-            _context.Assets.Remove(asset);
-            await _context.SaveChangesAsync();
+            if (asset != null)
+            {
+                _context.Assets.Remove(asset);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

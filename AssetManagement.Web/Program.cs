@@ -1,4 +1,5 @@
 using AssetManagement.BusinessLogic.Services;
+using AssetManagement.BusinessLogic.Interfaces;
 using AssetManagement.DataAccess;
 using AssetManagement.Web.Components;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IAssetService, AssetService>();
+builder.Services.AddScoped<IAssetObjectiveService, AssetObjectiveService>();
+builder.Services.AddScoped<IDecisionRecordService, DecisionRecordService>();
+builder.Services.AddScoped<IPredictiveActionService, PredictiveActionService>();
+builder.Services.AddScoped<IOrganisationalObjectiveService, OrganisationalObjectiveService>();
+builder.Services.AddScoped<IActivityService, ActivityService>();
+builder.Services.AddScoped<IDataAssetService, DataAssetService>();
+builder.Services.AddScoped<IInformationSystemService, InformationSystemService>();
+builder.Services.AddScoped<IRiskItemService, RiskItemService>();
+builder.Services.AddScoped<IAuditFindingService, AuditFindingService>();
 
 var app = builder.Build();
 

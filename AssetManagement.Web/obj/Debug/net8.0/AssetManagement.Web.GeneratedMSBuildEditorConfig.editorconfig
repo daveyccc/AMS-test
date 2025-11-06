@@ -24,6 +24,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Activities.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0aWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/AddActivity.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRBY3Rpdml0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/AddOrganisationalObjective.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRPcmdhbmlzYXRpb25hbE9iamVjdGl2ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Assets.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBc3NldHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +44,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/EditActivity.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0QWN0aXZpdHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/EditOrganisationalObjective.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0T3JnYW5pc2F0aW9uYWxPYmplY3RpdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/OrganisationalObjectives.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmdhbmlzYXRpb25hbE9iamVjdGl2ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/davec/Source/Repos/AMS-test/AssetManagement.Web/Components/Pages/Weather.razor]

@@ -1,0 +1,34 @@
+@page "/organisationalobjectives/add"
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IOrganisationalObjectiveService OrganisationalObjectiveService
+@inject NavigationManager NavigationManager
+
+<h3>Add Organisational Objective</h3>
+
+<EditForm Model="@objective" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <InputText id="title" class="form-control" @bind-Value="objective.Title" />
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <InputText id="description" class="form-control" @bind-Value="objective.Description" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private OrganisationalObjective objective = new OrganisationalObjective();
+
+    private async Task HandleValidSubmit()
+    {
+        await OrganisationalObjectiveService.Add(objective);
+        NavigationManager.NavigateTo("/organisationalobjectives");
+    }
+}
