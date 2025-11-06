@@ -1,0 +1,50 @@
+@page "/add-asset"
+@using AssetManagement.BusinessLogic.Services
+@using AssetManagement.DataAccess.Entities
+@using AssetManagement.BusinessLogic.Interfaces
+@inject IAssetService AssetService
+@inject NavigationManager NavigationManager
+
+<h3>Add Asset</h3>
+
+<EditForm Model="@asset" OnValidSubmit="HandleValidSubmit" FormName="AddAsset">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="asset.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="assetType" class="form-label">Asset Type</label>
+        <InputText id="assetType" class="form-control" @bind-Value="asset.AssetType" />
+    </div>
+
+    <div class="mb-3">
+        <label for="value" class="form-label">Value</label>
+        <InputNumber id="value" class="form-control" @bind-Value="asset.Value" />
+    </div>
+
+    <div class="mb-3">
+        <label for="lifecycleStage" class="form-label">Lifecycle Stage</label>
+        <InputText id="lifecycleStage" class="form-control" @bind-Value="asset.LifecycleStage" />
+    </div>
+
+    <div class="mb-3">
+        <label for="riskRating" class="form-label">Risk Rating</label>
+        <InputText id="riskRating" class="form-control" @bind-Value="asset.RiskRating" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private Asset asset = new Asset();
+
+    private async Task HandleValidSubmit()
+    {
+        await AssetService.Add(asset);
+        NavigationManager.NavigateTo("/assets");
+    }
+}
