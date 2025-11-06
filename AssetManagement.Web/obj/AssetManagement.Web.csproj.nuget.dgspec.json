@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/app/AssetManagement.Web/AssetManagement.Web.csproj": {}
+    "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj": {}
   },
   "projects": {
-    "/app/AssetManagement.BusinessLogic/AssetManagement.BusinessLogic.csproj": {
+    "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/AssetManagement.BusinessLogic/AssetManagement.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
         "projectName": "AssetManagement.BusinessLogic",
-        "projectPath": "/app/AssetManagement.BusinessLogic/AssetManagement.BusinessLogic.csproj",
-        "packagesPath": "/home/jules/.nuget/packages/",
-        "outputPath": "/app/AssetManagement.BusinessLogic/obj/",
+        "projectPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\davec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/jules/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "/app/AssetManagement.DataAccess/AssetManagement.DataAccess.csproj": {
-                "projectPath": "/app/AssetManagement.DataAccess/AssetManagement.DataAccess.csproj"
+              "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj"
               }
             }
           }
@@ -41,11 +48,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -68,31 +76,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/app/AssetManagement.DataAccess/AssetManagement.DataAccess.csproj": {
+    "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/AssetManagement.DataAccess/AssetManagement.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
         "projectName": "AssetManagement.DataAccess",
-        "projectPath": "/app/AssetManagement.DataAccess/AssetManagement.DataAccess.csproj",
-        "packagesPath": "/home/jules/.nuget/packages/",
-        "outputPath": "/app/AssetManagement.DataAccess/obj/",
+        "projectPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\AssetManagement.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\davec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/jules/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -105,11 +120,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -138,34 +154,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/app/AssetManagement.Web/AssetManagement.Web.csproj": {
+    "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/AssetManagement.Web/AssetManagement.Web.csproj",
+        "projectUniqueName": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
         "projectName": "AssetManagement.Web",
-        "projectPath": "/app/AssetManagement.Web/AssetManagement.Web.csproj",
-        "packagesPath": "/home/jules/.nuget/packages/",
-        "outputPath": "/app/AssetManagement.Web/obj/",
+        "projectPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\AssetManagement.Web.csproj",
+        "packagesPath": "C:\\Users\\davec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/jules/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "/app/AssetManagement.BusinessLogic/AssetManagement.BusinessLogic.csproj": {
-                "projectPath": "/app/AssetManagement.BusinessLogic/AssetManagement.BusinessLogic.csproj"
+              "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\davec\\Source\\Repos\\AMS-test\\AssetManagement.BusinessLogic\\AssetManagement.BusinessLogic.csproj"
               }
             }
           }
@@ -179,11 +202,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -215,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
