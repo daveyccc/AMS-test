@@ -28,7 +28,7 @@ namespace AssetManagement.BusinessLogic.Services
 
         public async Task Add(Asset asset)
         {
-            _context.Assets.Add(asset);
+            _context.Entry(asset).State = EntityState.Added;
             await _context.SaveChangesAsync();
         }
 
