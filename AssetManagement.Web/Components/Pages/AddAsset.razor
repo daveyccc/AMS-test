@@ -1,6 +1,7 @@
 @page "/add-asset"
 @using AssetManagement.BusinessLogic.Services
 @using AssetManagement.DataAccess.Entities
+@using AssetManagement.DataAccess.Enums
 @using AssetManagement.BusinessLogic.Interfaces
 @inject IAssetService AssetService
 @inject NavigationManager NavigationManager
@@ -28,12 +29,22 @@
 
     <div class="mb-3">
         <label for="lifecycleStage" class="form-label">Lifecycle Stage</label>
-        <InputText id="lifecycleStage" class="form-control" @bind-Value="asset.LifecycleStage" />
+        <InputSelect id="lifecycleStage" class="form-control" @bind-Value="asset.LifecycleStage">
+            @foreach (var stage in Enum.GetValues(typeof(LifecycleStage)))
+            {
+                <option value="@stage">@stage</option>
+            }
+        </InputSelect>
     </div>
 
     <div class="mb-3">
         <label for="riskRating" class="form-label">Risk Rating</label>
-        <InputText id="riskRating" class="form-control" @bind-Value="asset.RiskRating" />
+        <InputSelect id="riskRating" class="form-control" @bind-Value="asset.RiskRating">
+            @foreach (var rating in Enum.GetValues(typeof(RiskRating)))
+            {
+                <option value="@rating">@rating</option>
+            }
+        </InputSelect>
     </div>
 
     <button type="submit" class="btn btn-primary">Save</button>
